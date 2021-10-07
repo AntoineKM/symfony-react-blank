@@ -1,0 +1,39 @@
+{
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-scripts": "^4.0.3",
+        "web-vitals": "^2.1.1"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "7.0.0",
+        "@symfony/stimulus-bridge": "^2.0.0",
+        "@symfony/webpack-encore": "^1.0.0",
+        "@types/node": "^16.10.3",
+        "@types/react": "^17.0.27",
+        "@types/react-dom": "^17.0.9",
+        "@typescript-eslint/eslint-plugin": "^4.33.0",
+        "@typescript-eslint/parser": "^4.33.0",
+        "core-js": "^3.0.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.26.1",
+        "fork-ts-checker-webpack-plugin": "6.0.0",
+        "prettier": "^2.4.1",
+        "regenerator-runtime": "^0.13.2",
+        "stimulus": "^2.0.0",
+        "ts-loader": "9.0.0",
+        "typescript": "^4.4.3",
+        "webpack-notifier": "^1.6.0"
+    }
+}
